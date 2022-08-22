@@ -1,5 +1,4 @@
 const cohere = require('cohere-ai'); 
-
 cohere.init('YOUR_API_KEY');
 
 prompt_with_client_name =
@@ -36,7 +35,7 @@ prompt_with_city =
     temperature: 1, 
     k: 0, 
     p: 1,     
-    stop_sequences: ["\n"]    
+    stop_sequences: ["--"]    
   }); 
   
   // Check status code
